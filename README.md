@@ -5,9 +5,8 @@ www.microbot.it
 ## Arduino library for the Dual DC Motor Shield V2
 Motor speed and direction are controlled by a potentiometer, Shield temperature and current absorption are monitored on Serial Monitor
 ## Version history
-1.0.0 (2020-06-10): Original release.
+1.0.0 (2020-06-10): Original release.<br/><br/><br/><br/>
 
-This software is written by Microbot and is licensed under The [MIT Licence](http://opensource.org/licenses/mit-license.php). Check LICENSE.txt for the details of MIT license.<br/><br/><br/><br/>
-
+This software is written by Microbot and is licensed under The [MIT Licence](http://opensource.org/licenses/mit-license.php). Check LICENSE.txt for the details of MIT license.
 Contributing to this software is warmly welcomed. You can do this basically by forking, committing modifications and then pulling requests (follow the links above for operating guide). Adding change log and your contact into file header is encouraged.
 Thanks for your contribution.
