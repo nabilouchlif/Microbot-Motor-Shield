@@ -14,7 +14,7 @@ If you are using version 1.6.2 or later of the Arduino software (IDE), you can u
 
 If this does not work, you can manually install the library:
 1. Download the [latest release archive from GitHub](https://github.com/Microbot-it/Microbot-Motor-Shield/tags) and decompress it.
-2. Rename the folder "Microbot-Motor-Shield-xxxx" to "Microbot-Motor-Shield".
+2. Rename the folder "Microbot-Motor-Shield-xxxx" to "Microbot_Motor_Shield".
 3. Drag the "Microbot-Motor-Shield" folder into the "libraries" directory inside your Arduino sketchbook directory. You can view your sketchbook location by opening the "File" menu and selecting "Preferences" in the Arduino IDE. If there is not already a "libraries" folder in that location, you should make the folder yourself.
 4. After installing the library, restart the Arduino IDE.
 ## Version history
