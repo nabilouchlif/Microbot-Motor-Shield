@@ -8,8 +8,8 @@ Motor speed and direction are controlled by a potentiometer, Shield temperature 
 ## Library installation
 If you are using version 1.6.2 or later of the Arduino software (IDE), you can use the Library Manager to install this library:
 1. In the Arduino IDE, open the "Sketch" menu, select "Include Library", then "Manage Libraries...".
-2. Search for "Microbot-Motor-Shield".
-3. Click the Microbot-Motor-Shield entry in the list.
+2. Search for "Microbot_Motor_Shield".
+3. Click the Microbot_Motor_Shield entry in the list.
 4. Click "Install".<br/>
 
 If this does not work, you can manually install the library:
