@@ -13,25 +13,36 @@
 
 #include <Arduino.h>
 
-#define In1_1 3
-#define In1_2 5
-#define In2_1 6
-#define In2_2 9
-#define SenA A0
-#define SenB A1
+// Définitions pour le premier shield
+#define In1_1_1 3
+#define In1_2_1 5
+#define In2_1_1 6
+#define In2_2_1 9
+#define SenA_1 A0
+#define SenB_1 A1
 
-#define TCN75Addr B1001000 // temperature sensor address
-#define configReg 0x01     // Configuration Register
-#define tempReg 0x00       // Temperature Register
-
+// Définitions pour le deuxième shield
+#define In1_1_2 4
+#define In1_2_2 7
+#define In2_1_2 8
+#define In2_2_2 12
+#define SenA_2 A2
+#define SenB_2 A3
 
 class microbotMotorShield {
    public:
+      // Constructor pour chaque shield
+      microbotMotorShield(uint8_t shieldNum);
+
       // PUBLIC METHODS
       void begin();                                          // initialize the Motor Shield hardware
       void setMotor(uint8_t ch, uint8_t dir, uint8_t speed); // set speed percentage for a specific motor channel
       float getCurrent(uint8_t ch);                          // read current absorption on a specific channel
       float getTemperature();                                // read board temperature
+
+   private:
+      uint8_t _shieldNum;  // Numéro du shield (1 ou 2)
 };
 
 #endif
+
